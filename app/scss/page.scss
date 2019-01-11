@@ -1,0 +1,83 @@
+.page {
+  &__header {
+	  background-image: url(../img/page_header.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  min-height: 400px;
+	  width: 100%;
+	  display: flex;
+    & img {
+      
+    }
+	  &-text {
+		  margin: auto;
+		  color: white;
+		  & h1 {
+			  font-family: 'Merienda', cursive;
+			  font-size: 35px;
+		  }
+		  & a {
+			  color: white;
+			  text-decoration: none;
+			  padding: 5px;
+		  }
+		  & img {
+			  margin: 20px;
+		  }
+	  }
+	  &-line {
+		  height: 1px;
+		  width: 200px;
+		  background-color: white;
+		  margin: 0 auto;
+	  }
+  }
+  &__min {
+    text-align: left;
+    & img {
+      width: 100%;
+    }
+
+    &-h1 {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 40px;
+
+    }
+    &-data {
+      font-size: 14px;
+      font-style: italic;
+      margin: 15px 0;
+      display: block;
+
+    }
+    
+    
+    
+  }
+}
+.post {
+	&__min {
+		&-line {
+      height: 1px;
+      width: 100%;
+      background-color: #b7b7b7;
+    }
+		&-grup {
+      font-size: 14px;
+      font-style: italic;
+      padding: 10px 0;
+
+      & span {
+        padding: 10px;
+      }
+    }
+		&-text {
+			font-size: 14px;
+      line-height: 25px;
+      margin-top: 20px;
+      display: block;
+		}
+	} 
+} 

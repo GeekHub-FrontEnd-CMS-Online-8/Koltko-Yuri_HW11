@@ -1,0 +1,16 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  color: #3e3d3d;
+  background-color: #ededed;
+}
+@import "header";
+@import "index";
+@import "footer";
+@import "blog";
+@import "page";
+@import "hover";
+@import "media";

@@ -1,0 +1,222 @@
+@media screen and (min-width: 1024px) {
+  
+	.blog__header-line {
+		display: none;
+	}
+	.page__header-line {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 1024px) {
+  .carousel {
+    &__text {
+      top:20%;
+    }
+  }
+	.blog__header-line {
+		display: none;
+	}
+	.page__header-line {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+  .top-nav-btn {
+      display: block;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+  .menu__activ {
+          display: block;
+          position: absolute;
+          top: -17px;
+          z-index: 1;
+      }
+
+  .carousel {
+    &__text {
+      top:0;
+    }
+  }
+
+  .history {
+    &__post {
+      &:before {
+        bottom: 87.3%;
+      }
+      &:after {
+        bottom: 87.3%;
+        left: 99.8%;
+      }
+      &-right {
+
+      }
+      &-circler {
+        right: 105.4%;
+      }
+    }
+  }
+  .looking {
+    justify-content: center;
+
+
+    &__text {
+      text-align: center;
+
+      & p {
+        text-align: center;
+
+      }
+    }
+  }
+  .clients {
+    &__logo {
+      justify-content: center;
+      & img {
+        padding: 15px;
+
+      }
+    }
+  }
+	
+	.blog__header-line {
+		display: none;
+	}
+	.page__header-line {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+  .menu__activ {
+
+    top: 30px;
+    background-color: #ededed;
+    width: 100%;
+
+      }
+
+  .menu__soc {
+    justify-content: center;
+  }
+  .carousel {
+    &__text {
+      display: none !important;
+    }
+  }
+.border-left {
+  border-left: 1px solid transparent;
+}
+
+.mar__top {
+  margin-top: 10px;
+}
+.mar__des {
+    margin: 15px;
+}
+  .blog {
+    &__sek {
+      flex-wrap: wrap;
+
+      & img {
+
+      }
+      &-up {
+        flex-wrap: wrap;
+      }
+    }
+
+  }
+
+  .history {
+    &__post {
+      &:before {
+        display: none;
+      }
+      &:after {
+        display: none;
+      }
+
+
+      &-right {
+        &:before {
+          display: none;
+        }
+        &:after {
+          display: none;
+        }
+      }
+      &-circle {
+        display: none;
+      }
+      &-circler {
+        display: none;
+      }
+    }
+  }
+
+  .footer {
+      padding: 0 20px;
+    &__logo {
+      padding: 45px 20px;
+    }
+  }
+	.blog__header-text {
+		& img {
+			display: none;
+		}
+	}
+	
+	.blog__header-line {
+		display: block;
+	}
+	.page__header-line {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+  
+
+      .nav__menu a {
+        margin: 0 10px;
+      }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+  
+
+      .nav__menu a {
+        margin: 0 6px;
+      }
+
+  .blog {
+    &__sek {
+
+
+      & img {
+        width: 100%;
+      }
+      &-up {
+
+        & img {
+          width: 100%;
+        }
+
+      }
+    }
+
+  }
+
+
+}
