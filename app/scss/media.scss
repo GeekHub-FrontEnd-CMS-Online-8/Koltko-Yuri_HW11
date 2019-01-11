@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px) {
-  
+
 	.blog__header-line {
 		display: none;
 	}
@@ -83,7 +83,7 @@
       }
     }
   }
-	
+
 	.blog__header-line {
 		display: none;
 	}
@@ -172,18 +172,26 @@
 			display: none;
 		}
 	}
-	
+
+  .page__header-text {
+		& img {
+			display: none;
+		}
+	}
+
 	.blog__header-line {
 		display: block;
 	}
 	.page__header-line {
 		display: block;
 	}
-
+.page__search {
+  margin-top: 40px;
+}
 }
 
 @media screen and (max-width: 375px) {
-  
+
 
       .nav__menu a {
         margin: 0 10px;
@@ -194,7 +202,7 @@
 
 @media screen and (max-width: 320px) {
 
-  
+
 
       .nav__menu a {
         margin: 0 6px;

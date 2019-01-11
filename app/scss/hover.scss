@@ -104,3 +104,39 @@ transition: 1s;
 		transition: 2s;
 	}
 }
+.post {
+  &__soc {
+    & a:hover {
+
+    }
+  }
+}
+.facebook:hover {
+  background-color: #4267b2;
+  color: #fff;
+  transition: 1s;
+}
+.twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+  transition: 1s;
+}
+.google:hover {
+  background-color: #d12d2f;
+  color: #fff;
+  transition: 1s;
+}
+.behance:hover {
+  background-color: #0054f9;
+  color: #fff;
+  transition: 1s;
+}
+.youtube:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: 1s;
+}
+
+.categorie__team-left a:hover {
+  color: #b2b2b2;
+}

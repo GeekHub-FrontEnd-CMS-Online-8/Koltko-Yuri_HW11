@@ -1,0 +1,127 @@
+.team__img-blok:hover {
+  background-color: #fff;
+}
+
+.team__img-blok img:hover {
+  opacity: 0.2;
+}
+
+.team__img-blok:hover .team__img-hover {
+  display: block;
+}
+
+.portfolio__menu ul li:hover {
+  background-color: #3e3d3d;
+  color: #fff;
+}
+
+.nav__menu a:hover {
+  background-color: #3e3d3d;
+  color: #fff;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.menu__soc a:hover {
+  background-color: #3e3d3d;
+  color: #fff;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.carousel__buttom:hover {
+  background-color: #3e7890;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.history__years:hover {
+  -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.history__years-circle:hover {
+  -webkit-transform: rotate(-720deg);
+      -ms-transform: rotate(-720deg);
+          transform: rotate(-720deg);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.prices__cont:hover {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.prices__cont:hover a:hover {
+  background-color: #3e3d3d;
+  color: #fff;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.blog__header-text a:hover {
+  color: black;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: gainsboro;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.page__header-text a:hover {
+  color: black;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: gainsboro;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.facebook:hover {
+  background-color: #4267b2;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.google:hover {
+  background-color: #d12d2f;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.behance:hover {
+  background-color: #0054f9;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.categorie__team-left a:hover {
+  color: #b2b2b2;
+}

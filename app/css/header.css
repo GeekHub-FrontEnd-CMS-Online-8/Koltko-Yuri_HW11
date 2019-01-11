@@ -1,0 +1,148 @@
+.top-nav-btn {
+  display: none;
+}
+
+.top-nav-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: -16px;
+  display: none;
+  color: #3e3d3d;
+  z-index: 5;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  color: #fff;
+  padding: 35px 25px 10px 25px;
+}
+
+.menu__activ {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  font-size: 18px;
+}
+
+.logo a {
+  text-transform: uppercase;
+  color: #757575;
+  text-decoration: none;
+}
+
+#main__menu {
+  background-color: #fff;
+}
+
+.main__menu {
+  height: 63px;
+}
+
+.nav__menu a {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #aaaaaa;
+  margin: 0 15px;
+}
+
+.menu__soc a {
+  color: #a4a4a4;
+}
+
+.social__line {
+  height: 15px;
+  width: 1px;
+  background-color: #a4a4a4;
+  margin: 0 5px;
+}
+
+.carousel__text {
+  width: 506px;
+  margin: 0 auto;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  top: 33%;
+}
+
+.carousel__text-h5 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.carousel__text span {
+  font-family: 'Merienda', cursive;
+  font-size: 35px;
+  margin: 30px auto;
+}
+
+.carousel__buttom {
+  font-size: 15px;
+  border: 2px solid #fff;
+  height: 44px;
+  width: 153px;
+  background-color: rgba(138, 153, 148, 0);
+  color: #fff;
+  margin-top: 45px;
+  margin: auto;
+}
+
+.carousel__buttom-circle {
+  border: 2px solid #fff;
+  height: 15px;
+  width: 15px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  margin: 0 auto;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  top: 260px;
+}
+
+.carousel__buttom-arrow {
+  height: 36px;
+  width: 2px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  top: 275px;
+}
+
+.carousel__buttom-arrow::after {
+  content: '';
+  left: -7px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
